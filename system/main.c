@@ -13,7 +13,7 @@ void	printpid()
 		kprintf("This is process %d\r\n", currpid);
 
 		//uncomment the line below to see cooperative scheduling
-		//resched();
+		resched();
 	}
 }
 
